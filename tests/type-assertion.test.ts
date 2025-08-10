@@ -1,3 +1,5 @@
+import type {Person} from "../src/intersection-type";
+
 describe('Type Assertion', () => {
     it("Should check type assertion", () => {
         const person: any = {
