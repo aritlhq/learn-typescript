@@ -1,4 +1,4 @@
-import type {Category, Product} from "../src/type-aliases";
+import type {Category, Product} from "../src/type-alias";
 
 describe('Alias Data Type', () => {
     it('Should check alias', () => {
