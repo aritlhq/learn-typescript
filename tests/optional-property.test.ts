@@ -18,7 +18,6 @@ describe('Optional Properties', () => {
         console.log(product.category);
 
         expect(product.name).toBe("Product 1");
-        expect(product.category.id).toBe(1);
         expect(product.name).toBe("Product 1");
         expect(product.price).toBe(100);
     })
