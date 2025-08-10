@@ -1,5 +1,5 @@
 /*
-Alias Data Type
+Type Aliases
  */
 
 export type Category = {
