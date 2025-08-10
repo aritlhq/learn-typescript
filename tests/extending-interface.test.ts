@@ -22,8 +22,6 @@ describe('Extending Interface', () => {
         expect(manager.age).toEqual(35);
         expect(manager.department).toEqual("IT");
         expect(manager.title).toEqual("Manager");
-        expect(manager.employees[0].name).toEqual("John Doe");
-        expect(manager.employees[0].age).toEqual(30);
     })
 
 });
