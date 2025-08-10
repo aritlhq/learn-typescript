@@ -1,5 +1,5 @@
 /*
-Union Data Type
+Union Type
  */
 
 let sample: string | number | boolean = "John Doe";
