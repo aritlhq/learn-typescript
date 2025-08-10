@@ -1,3 +1,7 @@
+/*
+Union Types
+ */
+
 export type ID = string | number;
 
 export type Category = {
