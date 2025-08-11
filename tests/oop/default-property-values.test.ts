@@ -14,7 +14,7 @@ describe("Default Property Values", () => {
             }
         }
 
-        const person: Person = new Person(1);
+        const person: Person = new Person(1, "");
         console.log(person);
 
         person.name = "John Doe";
