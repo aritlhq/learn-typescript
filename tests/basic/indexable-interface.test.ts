@@ -1,4 +1,4 @@
-import type {Product, Category} from "../src/indexable-interface";
+import type {Product, Category} from "../../src/basic/indexable-interface";
 
 describe('Indexable Interface', () => {
     it("Should check indexable interface", () => {

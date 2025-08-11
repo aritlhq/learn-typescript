@@ -1,4 +1,4 @@
-import type {Employee, Manager} from "../src/extending-interface";
+import type {Employee, Manager} from "../../src/basic/extending-interface";
 
 describe('Extending Interface', () => {
     it("Should check extending interface", () => {

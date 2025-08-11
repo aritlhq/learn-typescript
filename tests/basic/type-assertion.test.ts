@@ -1,4 +1,4 @@
-import type {Person} from "../src/intersection-type";
+import type {Person} from "../../src/basic/intersection-type";
 
 describe('Type Assertion', () => {
     it("Should check type assertion", () => {

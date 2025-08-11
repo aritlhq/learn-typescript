@@ -1,10 +1,11 @@
-import type {Category, Product} from "../src/optional-properties";
+import type {Category, Product} from "../../src/basic/type-alias";
 
-describe('Optional Properties', () => {
-    it("Should check optional properties", () => {
+describe('Alias Data Type', () => {
+    it('Should check alias', () => {
         const category: Category = {
             id: 1,
             name: "Category 1",
+            description: "Description 1"
         }
 
         const product: Product = {
@@ -15,9 +16,10 @@ describe('Optional Properties', () => {
         }
 
         console.log(product);
-        console.log(product.category);
 
+        expect(category.id).toBe(1);
         expect(product.name).toBe("Product 1");
+        expect(product.category.id).toBe(1);
         expect(product.name).toBe("Product 1");
         expect(product.price).toBe(100);
     })

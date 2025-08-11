@@ -1,4 +1,4 @@
-import type {AddFunction} from "../src/function-interface";
+import type {AddFunction} from "../../src/basic/function-interface";
 
 describe("Function Interface", () => {
     it("Should check function", () => {

@@ -1,4 +1,4 @@
-import {type Customer, CustomerStatus, CustomerType} from "../src/enum-type";
+import {type Customer, CustomerStatus, CustomerType} from "../../src/basic/enum-type";
 
 describe("Enum Data Type", () => {
     it("Should check enum", () => {

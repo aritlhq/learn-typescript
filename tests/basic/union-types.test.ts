@@ -1,4 +1,4 @@
-import type {Category, Product} from "../src/union-type-2";
+import type {Category, Product} from "../../src/basic/union-type-2";
 
 describe('Alias Type for Union Type', () => {
     it("Should check Alias and Union", () => {

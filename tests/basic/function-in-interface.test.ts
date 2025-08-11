@@ -1,4 +1,4 @@
-import type {Person} from "../src/function-in-interface";
+import type {Person} from "../../src/basic/function-in-interface";
 
 describe('Function in Interface', () => {
     it("Should check function in interface", () => {

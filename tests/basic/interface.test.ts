@@ -1,4 +1,4 @@
-import type {Category} from "../src/interface";
+import type {Category} from "../../src/basic/interface";
 
 describe('Interface', () => {
     it("Should check interface", () => {
