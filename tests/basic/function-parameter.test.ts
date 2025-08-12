@@ -18,6 +18,8 @@ describe('Function Parameter', () => {
             return total;
         }
 
+        console.log(sum(1, 2, 3));
+
         expect(sum(1, 2, 3)).toBe(6);
     })
 });
