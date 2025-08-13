@@ -10,7 +10,7 @@ describe("Generic Class", () => {
 
         console.log(data);
 
-        // Creating data in generi
+        // Using data in generic
         const dataString: Data<any> = new Data<string>("Jane Doe 2");
         const firstName = dataString.value.substring(0, 3);
 
