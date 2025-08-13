@@ -1,4 +1,4 @@
-import {z, ZodError} from "zod";
+import {z} from "zod";
 
 describe('Collection Validation', () => {
     it('Should check collection validation', () => {
