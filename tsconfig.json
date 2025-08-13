@@ -3,13 +3,14 @@
   "compilerOptions": {
     // File Layout
     // "rootDir": "./src",
-     "outDir": "./dist",
-
+    "outDir": "./dist",
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
     "module": "ES6",
     "target": "esnext",
-    "types": ["jest"],
+    "types": [
+      "jest"
+    ],
     // For nodejs:
     // "lib": ["esnext"],
     // "types": ["node"],
@@ -19,11 +20,9 @@
     "sourceMap": true,
     "declaration": true,
     "declarationMap": true,
-
     // Stricter Typechecking Options
     "noUncheckedIndexedAccess": true,
     "exactOptionalPropertyTypes": true,
-
     // Style Options
     // "noImplicitReturns": true,
     // "noImplicitOverride": true,
@@ -36,9 +35,10 @@
     "strict": true,
     "jsx": "react-jsx",
     "verbatimModuleSyntax": true,
+    "moduleResolution": "node",
     "isolatedModules": true,
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
-    "skipLibCheck": true,
+    "skipLibCheck": true
   }
 }
